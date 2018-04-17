@@ -12,7 +12,14 @@ This repository contains a blender addon template with some fancy features like:
 3. OPTIONAL since in lib/blender you can already find 2.79b files.
    But in case you wanna use a different blender files:
    run ./update_blender_api.sh in scripts/ to retrieve the python blender APIs from your blender installation
-4. Add blender lib to your project
+4. Add blender lib to all your pycharm projects:
+    * File > Settings
+    * Project: PROJECT_NAME > Project Interpreter
+    * Click the gear icon in the right upper corner of the window
+    * Click "Show All"
+    * Click the icon "Show Paths For The Selected Interpreter"
+    * Click the green + icon
+    * Add the lib/blender directory to the list
    ![pycharm](https://github.com/mutantbob/pycharm-blender/blob/master/pycharm-3.4-screenshot.png?raw=true)
 5. Open dev.py in blender
 6. Edit the line git_path with the path to your plugin eg: /home/gnuton/git/blendaddon/
